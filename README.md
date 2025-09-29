@@ -7,6 +7,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('main.urls'))
 ]
+\n
 #settings.py
 INSTALLED_APPS = [
     'django.contrib.admin',
