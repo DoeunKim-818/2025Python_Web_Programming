@@ -3,12 +3,14 @@ main 상위 폴더의 urls.py 파일에서 main.urls도 include했고, setting �
 감사합니다.
 
 #urls.py
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('main.urls'))
 ]
 
 #settings.py
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
